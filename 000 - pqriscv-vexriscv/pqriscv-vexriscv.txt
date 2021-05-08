@@ -1,0 +1,27 @@
+cd pqriscv-vexriscv     // 2. 3.  ve 4. pencereler
+
+
+sbt "runMain mupq.PQVexRiscvSim --ram 256,128 --uart uartoutput.txt"     // 2.pencere
+
+
+openocd-vexriscv -f pqvexriscvsim.cfg     // 3.pencere
+
+
+cd /mnt/c/Users/MEHMETKAMIL/Desktop/ubuntu\ bash/     // 1.pencere
+
+
+make clean     // 1.pencere
+
+
+make     // 1.pencere
+
+
+riscv64-unknown-elf-gdb -ex 'set remotetimeout 10' -ex 'target remote :3333' -ex load -ex 'break main' hello.elf     // 1.pencere
+
+
+tail -f uartoutput.txt     // 4.pencere
+
+
+continue     // 1.pencere
+
+

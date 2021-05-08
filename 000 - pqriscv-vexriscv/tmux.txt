@@ -1,0 +1,37 @@
+tmux ls     // tmux pencereleri listeleme
+
+
+tmux
+tmux new -s session_name -d     // yeni bir tmux penceresi yaratma
+
+
+tmux a
+tmux a -t session_name     // tmux pencerisini açma
+
+
+tmux d     // tmux pencerisinden çıkma
+
+
+tmux kill-session -t session_name     // tmux pencere silme
+
+
+ctrl+b "     // yatay olarak yeni bir tmux penceresi açma
+
+
+ctrl+b %     // dikey olarak yeni bir tmux penceresi açma
+
+
+ctrl+b :setw synchronize-panes     // açılan tüm pencereleri senkronize kontrol etme
+
+
+ctrl+b x     // açılan tmux penceresini kapatma
+
+
+ctrl+b SPACE TUŞU     // pencere düzenlerini yeniden yapılandırma
+
+
+ctrl+b o
+ctrl+b YÖN TUŞLARI     // pencereler arası geçiş
+
+
+man tmux     // help
