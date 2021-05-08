@@ -1,0 +1,13 @@
+$ clean make
+$ make
+$ ./test/test
+30
+printn;
+5
+5
+5
+1
+1
+1
+
+

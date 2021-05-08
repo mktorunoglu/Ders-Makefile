@@ -1,0 +1,17 @@
+$ gcc -o gentest generic_test.c
+$ ./gentest
+pst(5)
+pi(4)
+ps(2)
+pc(1)
+pf(1.100000)
+pd(2.100000)
+Birden çok argüman
+pst(1)
+pst(2)
+pi(5)
+Toplam
+pi(12)
+px(c)
+
+

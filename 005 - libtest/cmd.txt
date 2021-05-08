@@ -1,0 +1,8 @@
+$ make
+ar rcs libtests.a a.o b.o
+ranlib libtests.a
+gcc -Wall -Werror -I. -L. test/test.c -o test/test -ltests
+$ ./tests
+5
+
+

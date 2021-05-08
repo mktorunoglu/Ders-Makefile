@@ -1,0 +1,10 @@
+$ make
+gcc -Wall -Werror -I. -L. a.c -c -o a.o
+gcc -Wall -Werror -I. -L. b.c -c -o b.o
+ar rcs libtests.a a.o b.o
+ranlib libtests.a
+gcc -Wall -Werror -I. -L. test/test.c -o test/test -ltests
+$ ./test/test
+100
+
+

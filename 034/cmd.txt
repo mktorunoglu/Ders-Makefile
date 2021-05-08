@@ -1,0 +1,12 @@
+$ make clean
+$ make
+$ ./testll
+3
+0
+1
+Linked List 0
+Hata!
+Hata!
+En büyük değer: 69
+
+

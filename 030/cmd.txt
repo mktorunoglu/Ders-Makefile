@@ -1,0 +1,6 @@
+$ make clean
+$ make
+$ ./test1
+En büyük değer: 69
+
+

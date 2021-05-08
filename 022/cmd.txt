@@ -1,0 +1,22 @@
+$ make clean
+$ make
+$ ./test1
+Fonksiyon çağrısı
+0
+0
+Fonksiyona pointer çağrısı
+0
+0
+2
+Class örnek
+0
+a: 1.100000
+a: 1.100000
+3
+clt çağrısı
+0
+1
+A: 97, a: 97
+1
+
+

@@ -1,0 +1,15 @@
+$ make clean
+$ make
+$ ./test1
+Fonksiyon çağrısı
+0
+1
+Fonksiyona pointer çağrısı
+0
+1
+2
+clt çağrısı
+0
+1
+
+

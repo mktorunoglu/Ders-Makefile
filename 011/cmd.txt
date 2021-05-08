@@ -1,0 +1,6 @@
+$ clean make
+$ make
+$ ./test/test
+21
+
+

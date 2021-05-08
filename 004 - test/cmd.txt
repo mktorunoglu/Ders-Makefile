@@ -1,0 +1,10 @@
+$ cp a.c a.h   // Kopyası oluşturulan header dosyasını düzenle.
+$ cp b.c b.h   // Kopyası oluşturulan header dosyasını düzenle.
+$ make
+gcc -Wall -Werror -I. a.c -c -o a.o
+gcc -Wall -Werror -I. b.c -c -o b.o
+gcc -Wall -Werror -I. a.o b.o test/test.c -o tests
+$ ./tests
+5
+
+
