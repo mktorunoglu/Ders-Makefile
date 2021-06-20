@@ -1,0 +1,9 @@
+$ make clean
+$ make
+$ ./testbst
+Binary Search Tree
+En büyük değer: 69
+1
+0
+Eklenmek istenen anahtar mevcut!
+

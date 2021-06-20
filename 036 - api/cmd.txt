@@ -1,0 +1,9 @@
+$ make clean
+$ make
+$ ./testll
+Linked List
+En büyük değer: 101
+$ ./testbst
+Binary Search Tree
+En büyük değer: 69
+

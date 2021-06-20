@@ -1,0 +1,9 @@
+$ make clean
+$ make
+$ ./testbst
+Var olan bulundu.
+Hata! Var olmayan bulundu.
+Binary Search Tree
+Var olan eleman ekleme
+Eklenmek istenen anahtar mevcut!
+
